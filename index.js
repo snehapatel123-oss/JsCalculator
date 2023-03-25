@@ -1,8 +1,8 @@
-function clearScreen() {
+function remove() {
     document.getElementById("input").value = "";
 }
 
-function remove(){
+function clearScreen(){
     var p = document.getElementById("input").value;
     var q = p.slice(0, -1);
     document.getElementById("input").value = q;
